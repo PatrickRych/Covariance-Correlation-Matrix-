@@ -22,7 +22,6 @@ It Displays how sensitive an asset is to the equity market, helping identify lea
 
 
 
-
 ## Projects
 - <a href="https://github.com/PatrickRych/EquityFactor">Equity Risk Factor</a>
 - <a href="https://github.com/PatrickRych/Covariance-Correlation-Matrix-/tree/main">Correlation Matrix</a>
