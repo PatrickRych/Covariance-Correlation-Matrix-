@@ -1,31 +1,24 @@
 # Covariance-Correlation-Matrix-
 
-## Objective
-[Brief Objective - Remove this afterwards]
+## Correlation Matrix
+This model tracks the evolving relationship structure across macro assets, equity sectors, commodities, currencies, and crypto. It combines rolling correlation, beta statistics, and volatility-adjusted dispersion metrics to reveal when assets are moving together — and when they begin to decouple, posing either risk or opportunity.
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+- Visualizes pairwise linear relationships across 30+ assets.
+- Color-coded heatmap instantly reveals high-correlation clusters vs. decorrelated outliers.
+- Correlation shifts serve as a risk-on / risk-off sentiment gauge, useful for allocation and hedging.
+  
+![CorrelationMatrix](https://github.com/user-attachments/assets/a806e99c-406a-49e4-8b5f-85882b25af98)
 
-### Skills Learned
-[Bullet Points - Remove this afterwards]
+## Beta Grid & Time-Series Engine
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+This Model computes beta vs SPY for each asset, alongside rolling average and percentile ranks.
+It Displays how sensitive an asset is to the equity market, helping identify leading/lagging exposure.
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+### The Purpose:
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Detects structural breaks in asset relationships using time-based thresholds.
+- Visual overlays on the SPY price chart show periods where correlation or beta exceeded key thresholds.
+- Helps identify when diversification breaks down, and when hedges may become ineffective.
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+![CorrelatrionStats](https://github.com/user-attachments/assets/526177b4-6086-48f0-a409-359d05b42079)
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
