@@ -22,7 +22,8 @@ It Displays how sensitive an asset is to the equity market, helping identify lea
 
 
 
-## Projects Archive 
+## Project Archive 
 
 **<a href="https://github.com/PatrickRych/Portfolio-Manager">Project Archive </a>**
 ****
+
