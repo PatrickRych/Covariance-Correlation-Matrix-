@@ -7,18 +7,21 @@ This model tracks the evolving relationship structure across macro assets, equit
   
 ![CorrelationMatrix](https://github.com/user-attachments/assets/a806e99c-406a-49e4-8b5f-85882b25af98)
 
-## Beta Grid & Time-Series Engine
+## Beta and Correlation Stats and Conditional Visualizer
 
-This Model computes beta vs SPY for each asset, alongside rolling average and percentile ranks.
-It Displays how sensitive an asset is to the equity market, helping identify leading/lagging exposure.
+This Model computes beta vs the benchmark for for each asset, alongside rolling average and percentile ranks.
+It displays how sensitive an asset is to the equity market, helping identify leading/lagging exposure.
 
 ### The Purpose:
 
 - Detects structural breaks in asset relationships using time-based thresholds.
-- Visual overlays on the SPY price chart show periods where correlation or beta exceeded key thresholds.
-- Helps identify when diversification breaks down, and when hedges may become ineffective.
+- Visual overlays on the benchmark price chart show periods where correlation or beta exceeded key thresholds.
+- Helps identify when diversification breaks down, and when hedges may become ineffective
+- 
 
-![CorrelatrionStats](https://github.com/user-attachments/assets/526177b4-6086-48f0-a409-359d05b42079)
+![image](https://github.com/user-attachments/assets/d3e3bcf0-3695-47e3-bbb8-0616a8edebbf)
+
+
 
 
 
