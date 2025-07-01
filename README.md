@@ -46,6 +46,22 @@ Simpler said, the risk remaining just means the asset’s movement that is not e
 **You hedge with this formula:**
 Hedge Notional=β×Position Size
 
+## Correlation / Covariance 
+
+#### Analyzing Asset Relationships
+
+The covariance matrix serves as a crucial tool for understanding how assets interact with one another, providing valuable insights for designing a diversified portfolio that balances risk and return effectively.
+
+#### Risk Assessment and Diversification
+
+- **Diversification:** A key principle in risk management is to include assets with minimal or negative covariance to ensure they don't move in the same direction. In this case, while all the covariances between stocks are positive, their magnitudes vary. For instance, Stock A and Stock C have a relatively low covariance (0.000015), making them suitable candidates for diversification within the portfolio.
+- **Volatility:** Evaluating variance values can highlight potential contributions to portfolio stability. Assets with lower variances, such as Stock B, tend to stabilize the portfolio, whereas those with higher variances, like Stock, can introduce greater risk but also the potential for higher returns.
+
+### Portfolio Construction Strategies
+Asset Allocation: When constructing a portfolio, assigning greater weight to low-variance assets can help minimize overall risk. Depending on your risk appetite, higher-variance assets can also be included in smaller proportions to enhance return potential.
+- **correlation Insights:** Positive covariances among all assets suggest they generally move in the same direction. However, weaker correlations—indicated by lower covariance values—can help identify pairs of assets that complement each other, optimizing the risk-return balance.
+- **Considerations:** It is always vital to understand that models built to demonstrate historical relationships- as do the correlation and covariance models- can eventually, and typically do eventually lose their predictive power. It is part of an evolving system.
+
 
 
 
