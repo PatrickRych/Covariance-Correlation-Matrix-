@@ -69,7 +69,7 @@ Asset Allocation: When constructing a portfolio, assigning greater weight to low
 
 ## Project Archive 
 
-| <a href="https://github.com/PatrickRych/Project/edit/main/README.md">LandingPage </a>
+| <a href="https://github.com/PatrickRych/Project">LandingPage </a>
 | <a href="https://github.com/PatrickRych/Portfolio-Manager">Project Archive </a>
 ****
 
